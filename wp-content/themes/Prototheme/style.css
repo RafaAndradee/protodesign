@@ -1,0 +1,786 @@
+/*
+Theme Name: prototheme
+Author: rafael
+Author URI: rafandrade.com
+Description: tema desenvolvido exclusivamente para o site da ProtoDesign
+Version: 2.0.6
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: custom-colors, custom-background, custom-menu, custom-header, featured-images, editor-style, sticky-post, theme-options, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+*/
+
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+
+a {
+    color: #930e3d;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+
+.btn {
+			border:0;
+			background-color: black;
+			color:#fff;
+			padding:1rem;
+			font-size: 1rem;
+			position: fixed;
+			bottom:1rem;
+			right: 1rem;
+}
+
+.navbar.shrink {
+	transition: all ease .5s;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+	background-color: #2480894d;
+	height: auto;
+}
+
+
+.navbar {
+    transition: all ease .5s;
+    width: 100%;
+    z-index: 10;
+    background-color: #248089;
+
+}
+
+
+.custom-logo{
+	max-width: 300px;
+	height: auto;
+	transition: all ease .5s;
+	padding: 0 2vmax;
+}
+
+.navbar.shrink .custom-logo{
+	max-width: 19vmax;
+	height: auto;
+	transition: all ease .5s;
+}
+
+
+.navbar-toggler{
+    z-index: 4 !important;
+    transition: all ease .5s;
+}
+
+#navbarSupportedContent{
+	width: 100%;
+	transition: all ease .5s;
+}
+.menu-header-container{
+	width: 100%;
+	transition: all ease .5s;
+}
+
+.navbar-nav.mr-auto{
+	float: right;
+	transition: all ease .5s;
+
+}
+
+.custom-logo{
+	max-width: 300px;
+	height: auto;
+	transition: all ease .5s;
+}
+
+.navbar-nav.mr-auto a{
+	color: #fff;
+	text-transform: uppercase;
+	margin-right: 12px;
+	transition: all ease .5s;
+
+}
+
+
+.anime2 {
+    opacity: 0;
+    transform: translate3d(,0,0);
+    transition: .4s;
+}
+
+.anime {
+	opacity: 0;
+	transform: translate3d(0,100px,0);
+	transition: .4s;
+}
+
+.anime-start {
+	opacity: 1;
+	transform: translate3d(0,0,0);
+}
+
+ /* ==========================================================================
+   Slider
+   ========================================================================== */
+#slider{
+    width: auto;
+    height: 100vh;
+
+}
+.carousel-item {
+  display: block;
+  opacity: 0;
+  transition: opacity 0.75s ease-in-out;
+  position: absolute;
+
+
+
+}
+.carousel-item.active {
+  opacity: 1;
+
+
+}
+.carousel, .carousel-inner {
+  width: 100%;
+  height: 100%;
+
+}
+
+.carousel-item img{
+    height: 100vh;
+    width: auto;
+
+
+}
+
+
+.carousel-caption h1{
+
+    width: 46%;
+    text-align: left !important;
+    margin: 14% 0vh;
+    font-family: 'Neris', sans-serif;
+    font-weight: 700;
+
+    font-size: 2.9rem;
+}
+
+/* ==========================================================================
+   revista
+   ========================================================================== */
+
+   #revista {
+
+       text-align: center;
+       margin: 0% 0px 0px 0px;
+       background-image: url(assets/images/artenorte-bg.jpg);
+       background-size: cover;
+       height: 100vh;
+       background-position: top, center;
+       background-repeat: no-repeat;
+       display: table;
+       width: 100%;
+       text-shadow: rgba(0, 0, 0, 0.76) 2px 1px 12px;
+       text-transform: uppercase;
+
+   }
+
+   .plogo {
+
+       vertical-align: middle;
+       text-align: left;
+       padding: 23vh 20px 10px 22px;
+
+   }
+
+   .pbaxeaqui {
+
+       text-align: left;
+       padding: 28px 20px 10px 22px;
+
+   }
+
+   #revista img {
+
+       width: 20vh;
+
+   }
+
+/* ==========================================================================
+   consultoria
+   ========================================================================== */
+
+#consultoria{
+	text-align: center;
+	margin: 4% 0px 0px 0px;
+	background-image: url(assets/images/side.png);
+
+	background-size: contain;
+	background-attachment: fixed;
+}
+
+#consultoria h1{
+	color: #248089;
+	text-transform: uppercase;
+	font-size: 30px;
+}
+
+#consultoria h2 {
+    color: #248089;
+    text-transform: uppercase;
+    font-size: 17px;
+    padding: 3vh;
+    height: 15%;
+}
+
+
+#textoConsultoria{
+	padding: 0px 24vh 0px 24vh;
+	font-size: 20px;
+	color: #808080;
+	margin: 5vh 0vh 2vh 0vh;
+}
+
+
+#consultoria #textoBox {
+
+    font-size: 13px;
+    margin: 5vh 0vh 2vh 0vh;
+    color: #248089;
+    color: #808080;
+
+}
+
+#serviceswrap{
+	list-style: none;
+	padding: 20px 0px 56px 0;
+	display: inline-flex;
+	text-align: center;
+	flex-wrap: wrap;
+}
+
+
+.box1, .box2, .box3{
+	text-align: center;
+	width: 232px;
+	margin: 5px 16px 5px 16px;
+}
+
+
+/* ==========================================================================
+   abordagem
+   ========================================================================== */
+
+#abordagem {
+    background-image: url(assets/images/abordagembg.png);
+    text-align: center;
+    margin: 0 0 0 0;
+    height: auto;
+}
+
+#abordagem h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    padding: 25px 2px 2px 2px;
+}
+
+
+#abordagem h2 {
+    padding: 4vh 2vh 7vh 2vh;
+    color: #fff;
+}
+
+
+#textoAbordagem {
+
+    color: #fff;
+    text-align: center;
+    padding: 3vh 25vh;
+
+}
+
+#abordagemwrap{
+	list-style: none;
+	padding: 20px 0px 15px 0px;
+	display: inline-flex;
+	text-align: center;
+	flex-wrap: wrap;
+}
+
+
+.box1, .box2, .box3, .box4{
+	text-align: center;
+	width: 18rem;
+	margin: 5px 16px 5px 16px;
+	/*! display: grid; */
+	color: #fff;
+}
+
+
+
+#contato{
+	background-image: url(assets/images/bgcontato.png);
+	background-position: center;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vmin;
+}
+
+#contato h1{
+	color: #248089;
+	text-transform: uppercase;
+	font-size: 30px;
+	text-align: center;
+	padding: 25px 2px 2px 2px;
+
+
+}
+
+.infowrap {
+    display: inline-flex;
+}
+
+.informacoes{
+	border: none;
+    border-bottom-width: medium;
+    border-bottom-style: none;
+    border-bottom-color: currentcolor;
+	border-bottom: 2px solid #318087;
+	margin: 2px 10px;
+	background: transparent;
+	width: 90%;
+}
+
+
+.mensagewrap {
+	display: inline-flex;
+}
+
+
+
+
+
+/* ==========================================================================
+   @media tablet
+   ========================================================================== */
+@media (min-width: 768px) {
+
+
+div.wpcf7 {
+   display: block;
+}
+
+
+}
+
+
+@media (max-width: 768px) {
+	#serviceswrap{
+		width: 100%;
+	}
+
+    .carousel-caption h1 {
+
+    width: 70%;
+
+    }
+
+#wpcf7-f14-o1 {
+    padding: 0 0 0 0;
+}
+
+
+div.wpcf7 {
+   display: block;
+   padding: 5vh 5vh 5vh 5vh !important;
+}
+
+.wpcf7-form input {
+
+    width: 12rem !important;;
+
+}
+
+.box1, .box2, .box3, .box4 {
+    width: 100%;
+    position: relative;
+    max-width: 45%;
+}
+
+#textoConsultoria {
+    padding: 0px 13vh 0px 13vh;
+}
+
+#textoAbordagem {
+    padding: 2vh 10vh;
+}
+
+.wpcf7-form {
+    width: 100%;
+    text-align: center;
+    display: block !important;
+}
+.mensagem {
+
+    border: none;
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: medium;
+    border-bottom-width: medium;
+    border-bottom-style: none;
+    border-bottom-color: currentcolor;
+    border-bottom: 2px solid #318087;
+    width: 28vmax !important;;
+    background: transparent;
+
+}
+.mensagewrap {
+	display: unset;
+}
+
+.infowrap {
+    display: inline-block;
+}
+
+#botaowrap {
+    height: 30vmin;
+    text-align: center;
+    margin: -6vmax;
+}
+
+}
+
+
+
+/* ==========================================================================
+   @media mobile
+   ========================================================================== */
+   @media (min-width: 1920px) {
+     #revista h5 {
+         vertical-align: middle;
+         text-align: center;
+
+     }
+
+   }
+
+
+@media (max-width: 1024px) {
+  .plogo {
+
+
+ padding: 10vh 20px 10px 22px;
+
+   }
+
+   #revista img {
+
+ width: 9vh;
+
+}
+  #revista {
+      height: 38vh;
+  }
+}
+
+@media (max-width: 480px) {
+  #revista {
+
+    height: 35vh;
+
+}
+	#serviceswrap{
+		width: 100%;
+	}
+
+
+.carousel-caption h1 {
+
+    width: 100%;
+    font-size: 2.0rem;
+
+}
+
+
+.box1, .box2, .box3, .box4 {
+    width: 100%;
+    position: relative;
+    max-width: 100%;
+}
+
+#textoConsultoria{
+	padding: 0px 6vh 0px 6vh;
+	font-size: 16px;
+}
+
+}
+
+#sobre {
+    background-color: #e33b57;
+    height: 80vh;
+
+
+}
+
+#cerebro{
+
+text-align: center;
+}
+
+#cerebro img{
+width: 50vh;
+margin: 8vh 0vh;
+}
+
+
+#sobre h1{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 30px;
+	text-align: center;
+	padding: 25px 2px 2px 2px;
+}
+
+
+
+#testmonials{
+	text-align: center;
+	padding: 4% 0px 0px 0px;
+  background-image: url(assets/images/abordagembg.png);
+
+	background-size: contain;
+	background-attachment: fixed;
+}
+
+#testmonials h1{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 30px;
+}
+
+.soc-whatsapp {
+
+    color: #fff;
+    display: block;
+
+    position: absolute;
+    z-index: 500;
+    right: 8vh;
+    padding: 21px 12vh 0px 0px;
+}
+
+#testmonials h2 {
+    color: #248089;
+    text-transform: uppercase;
+    font-size: 17px;
+    padding: 3vh;
+    height: 15%;
+}
+
+
+#textotestmonials{
+	padding: 0px 24vh 0px 24vh;
+	font-size: 20px;
+	color: #808080;
+	margin: 5vh 0vh 2vh 0vh;
+}
+
+
+#testmonials #textoBox {
+    font-size: 13px;
+    margin: 5vh 0vh 2vh 0vh;
+    color: #fff;
+}
+
+
+
+#textoContato {
+    padding: 0px 5vh 0px 5vh;
+    font-size: 20px;
+    color: #248089;
+    margin: 5vh 0vh 2vh 0vh;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+div.wpcf7 {
+    padding: 5vh 23vh 5vh 23vh;
+
+}
+
+.wpcf7-form label{
+
+    margin: 0 2vmax 0 2vmax;
+}
+
+.wpcf7-form input{
+
+  width: 20vmax;
+
+}
+
+.wpcf7-form{
+	display: flex;
+    flex-wrap: wrap;
+	width: 100%;
+
+}
+
+
+
+.wpcf7-submit{
+    width: 15vh !important;
+}
+
+
+.emailForm{
+  border: none;
+  border-bottom-width: medium;
+  border-bottom-style: none;
+  border-bottom-color: currentcolor;
+  border-bottom: 2px solid #318087;
+  background: transparent;
+}
+
+.phoneForm {
+  border: none;
+  border-bottom-width: medium;
+  border-bottom-style: none;
+  border-bottom-color: currentcolor;
+  border-bottom: 2px solid #318087;
+  background: transparent;
+}
+
+.nomeForm {
+  border: none;
+  border-bottom-width: medium;
+  border-bottom-style: none;
+  border-bottom-color: currentcolor;
+  border-bottom: 2px solid #318087;
+  background: transparent;
+}
+
+.mensagewrap {
+
+}
+
+.mensagem{
+	border: none;
+    border-bottom-width: medium;
+    border-bottom-style: none;
+    border-bottom-color: currentcolor;
+	border-bottom: 2px solid #318087;
+	width: 20vmax;
+	background: transparent;
+}
+
+
+
+.wpcf7-submit {
+    margin: 19vmin 0 0 0;
+    border: none;
+    background-color: #318087;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+
+
+/* ==========================================================================
+   Redes Sociais
+   ========================================================================== */
+
+@font-face {
+    font-family: 'si';
+    src: url('assets/fonts/socicon.eot');
+    src: url('assets/fonts/socicon.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/socicon.woff') format('woff'),
+         url('assets/fonts/socicon.ttf') format('truetype'),
+         url('assets/fonts/socicon.svg#icomoonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family:si;
+        src: url(PATH_TO/socicon.svg) format(svg);
+    }
+}
+
+.soc {
+    overflow:hidden;
+    margin:0; padding:0;
+    list-style:none;
+    text-align: center;
+}
+
+.soc li {
+    display:inline-block;
+    *display:inline;
+    zoom:1;
+}
+
+.soc li a {
+    font-family:si!important;
+    font-style:normal;
+    font-weight:400;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+    overflow:hidden;
+    text-decoration:none;
+    text-align:center;
+    display:block;
+    position: relative;
+    z-index: 1;
+    width: 54px;
+    height: 54px;
+    line-height: 54px;
+    font-size: 29px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    margin-right: 27px;
+    color: #e33b57;
+    background-color: transparent;
+}
+
+.soc-icon-last{
+    margin:0 !important;
+}
+
+.soc-facebook:before {
+    content:'\e041';
+}
+.soc-behance:before {
+    content:'\e027';
+}
+.soc-instagram:before {
+    content:'\e057';
+}
+.soc-twitter:before {
+    content:'\e040';
+}
+.soc-googleplus:before {
+    content:'\e042';
+}
+.soc-pinterest:before {
+    content:'\e043';
+}
+.soc-youtube:before {
+    content:'\e051';
+}
