@@ -61,9 +61,9 @@
 <div id="revista">
 
 
-<p class="plogo"><img src="wp-content/themes/Prototheme/assets/images/logo-rev.png" alt=""></p>
+<!-- <p class="plogo"><img src="wp-content/themes/Prototheme/assets/images/logo-rev.png" alt=""></p> -->
 
-<a id="linkRev" href="http://www.protodesignbrasil.com/wp-content/uploads/2018/11/ArteNorte1-Spreads.pdf"><p class="pbaxeaqui"><img src="wp-content/themes/Prototheme/assets/images/baixe-aqui.png" alt=""></p></a>
+<a id="linkRev" href="http://www.protodesignbrasil.com/wp-content/uploads/2019/02/Revista-Arte-Norte2.pdf"><p class="pbaxeaqui"><img src="wp-content/themes/Prototheme/assets/images/baixe-aqui.png" alt=""></p></a>
 
 
 </div>

@@ -1,3 +1,5 @@
 [06-Dec-2018 05:02:00 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/protodes/public_html/protodesignbrasil.com/wp-content/themes/twentyseventeen/inc/template-tags.php on line 196
 [06-Dec-2018 05:02:31 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/protodes/public_html/protodesignbrasil.com/wp-content/themes/twentyseventeen/inc/template-tags.php on line 196
 [06-Dec-2018 05:55:44 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/protodes/public_html/protodesignbrasil.com/wp-content/themes/twentyseventeen/inc/template-tags.php on line 196
+[06-Dec-2018 17:36:31 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/protodes/public_html/protodesignbrasil.com/wp-content/themes/twentyseventeen/inc/icon-functions.php on line 22
+[06-Dec-2018 22:48:42 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/protodes/public_html/protodesignbrasil.com/wp-content/themes/twentyseventeen/inc/icon-functions.php on line 22

@@ -178,10 +178,11 @@ a {
 
        text-align: center;
        margin: 0% 0px 0px 0px;
-       background-image: url(assets/images/artenorte-bg.jpg);
+       /*background-image: url(assets/images/artenorte-bg.jpg);*/
+	   background-image: url('http://www.protodesignbrasil.com/wp-content/uploads/2019/02/RAN-Facebook-Banner-2.jpg');
        background-size: cover;
        height: 100vh;
-       background-position: top, center;
+       background-position: 0, center;
        background-repeat: no-repeat;
        display: table;
        width: 100%;
@@ -199,10 +200,9 @@ a {
    }
 
    .pbaxeaqui {
-
+	   margin-top: 30vw;
        text-align: left;
        padding: 28px 20px 10px 22px;
-
    }
 
    #revista img {
