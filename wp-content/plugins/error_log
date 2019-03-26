@@ -1,4 +1,0 @@
-[09-Nov-2018 16:33:43 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/protodes/public_html/protodesignbrasil.com/wp-content/plugins/hello.php on line 59
-[09-Nov-2018 16:33:47 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/protodes/public_html/protodesignbrasil.com/wp-content/plugins/hello.php on line 59
-[30-Jan-2019 07:09:35 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/protodes/public_html/protodesignbrasil.com/wp-content/plugins/hello.php on line 59
-[30-Jan-2019 07:29:46 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/protodes/public_html/protodesignbrasil.com/wp-content/plugins/hello.php on line 59
